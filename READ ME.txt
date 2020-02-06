@@ -1,0 +1,19 @@
+Documentação das tecnologias do projeto e de como rodar localmente no README
+
+Projeto Teste GPTW
+ '-> O backend foi feito com java spring + hibernate;
+
+Como executar o projeto
+ '-> Executar os scripts do criação.txt;
+ '-> descompactar o arquivos e importar no java;
+ '-> Alterar os dados de usuario e senha do application.properties;
+ '-> executar o TesteApplication;
+ '-> o programa subira no caminho padrão http://localhost:8080/;
+
+
+Caminhos
+ '-> consulta (tudo): http://localhost:8080/empresas;
+ '-> consulta (unico): http://localhost:8080/empresas/id; 
+ '-> atualizacao: http://localhost:8080/empresas/id (Method post);
+ '-> exclusão: http://localhost:8080/empresas/id (Method delete);
+ '-> inserção: http://localhost:8080/empresas (Method put);

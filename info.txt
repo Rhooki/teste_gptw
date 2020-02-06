@@ -1,0 +1,46 @@
+Criar um Single Page Application usando Vue, React ou angular que deve conter um CRUD de cadastro de empresas. A arquitetura do sistema será feito da seguinte forma:
+
+Deve estar no Github
+Deve ter um front-end (a Sinble Page Application) e back-end (a API)
+O front-end deve consumir o back-end através de chamadas HTTP.
+O back-end JAVA ou afins
+O banco de dados deve ser MYSQL
+O schema e massa de dados deve estar junto com o projeto
+Documentação das tecnologias do projeto e de como rodar localmente no README
+
+Empresa deverá ter as seguintes informações:
+  Nome (obrigatório)
+  Cpnj (obrigatório)
+  Razão Social
+
+Número de funcionários em faixa
+  0 - 29
+  30 - 99
+  100 - 999
+  +1000
+
+Endereços (pode ter vários)
+  Logradouro (obrigatório)
+  Número (obrigatório)
+  Complemento
+  Bairro (obrigatório)
+  Cidade (obrigatório)
+  Estado (obrigatório)
+
+Telefones (pode ter vários)
+  Prefixo (obrigatório)
+  Número (obrigatório)
+
+Status
+  Ativo
+  Inativo
+
+Deverá conter, pelo menos, as seguintes telas:
+Listagem de Empresas
+Tela de Adição/Edição de Empresas
+
+Parte 2
+Projeto rodar com Docker + Docker Compose
+Back-end com conceitos REST
+Testes unitários
+Swagger integrado
